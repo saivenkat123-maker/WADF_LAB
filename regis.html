@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Registration Page</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <form>
+    <h2>Registration</h2>
+    <label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" name="fullname" required>
+
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <label for="confirmPassword">Confirm Password:</label>
+    <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+    <label for="gender">Gender:</label>
+    <input type="radio" id="male" name="gender" value="male"> Male
+    <input type="radio" id="female" name="gender" value="female"> Female
+    <input type="radio" id="other" name="gender" value="other"> Other
+
+    <label for="interests">Interests:</label>
+    <input type="checkbox" id="sports" name="interests[]" value="sports"> Sports
+    <input type="checkbox" id="music" name="interests[]" value="music"> Music
+    <input type="checkbox" id="Reading" name="interests[]" value="Reading"> Reading
+
+    <label for="country">Country:</label>
+    <input type="text" id="country" name="country" required>
+    <center><input class="button" type="button" value="Register"></center>
+  </form>
+</body>
+</html>
